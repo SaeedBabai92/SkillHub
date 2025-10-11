@@ -1,0 +1,44 @@
+﻿.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# SQLite local DB
+*.db
+Data/app.db
+
+# Secrets & Config
+*.config
+*.env
+appsettings.Development.json
+
+# Local-only migrations
+*/Migrations/*
+
+# Tailwind / node
+node_modules/
+dist/
+wwwroot/css/

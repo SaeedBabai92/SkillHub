@@ -1,0 +1,757 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is E82C-2F61
+C:.
+|   appsettings.Development.json
+|   appsettings.json
+|   Program.cs
+|   SkillHub.App.csproj
+|   SkillHub.App.csproj.user
+|   SkillHub.sln
+|   structure.txt
+|   
++---bin
+|   \---Debug
+|       +---net8.0
+|       |   |   appsettings.Development.json
+|       |   |   appsettings.json
+|       |   |   Azure.Core.dll
+|       |   |   Azure.Identity.dll
+|       |   |   Humanizer.dll
+|       |   |   Microsoft.AspNetCore.Cryptography.Internal.dll
+|       |   |   Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+|       |   |   Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+|       |   |   Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+|       |   |   Microsoft.Bcl.AsyncInterfaces.dll
+|       |   |   Microsoft.CodeAnalysis.CSharp.dll
+|       |   |   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+|       |   |   Microsoft.CodeAnalysis.dll
+|       |   |   Microsoft.CodeAnalysis.Workspaces.dll
+|       |   |   Microsoft.Data.SqlClient.dll
+|       |   |   Microsoft.EntityFrameworkCore.Abstractions.dll
+|       |   |   Microsoft.EntityFrameworkCore.Design.dll
+|       |   |   Microsoft.EntityFrameworkCore.dll
+|       |   |   Microsoft.EntityFrameworkCore.Relational.dll
+|       |   |   Microsoft.EntityFrameworkCore.SqlServer.dll
+|       |   |   Microsoft.Extensions.Caching.Memory.dll
+|       |   |   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+|       |   |   Microsoft.Extensions.DependencyInjection.dll
+|       |   |   Microsoft.Extensions.DependencyModel.dll
+|       |   |   Microsoft.Extensions.Identity.Core.dll
+|       |   |   Microsoft.Extensions.Identity.Stores.dll
+|       |   |   Microsoft.Extensions.Logging.Abstractions.dll
+|       |   |   Microsoft.Extensions.Logging.dll
+|       |   |   Microsoft.Extensions.Options.dll
+|       |   |   Microsoft.Identity.Client.dll
+|       |   |   Microsoft.Identity.Client.Extensions.Msal.dll
+|       |   |   Microsoft.IdentityModel.Abstractions.dll
+|       |   |   Microsoft.IdentityModel.JsonWebTokens.dll
+|       |   |   Microsoft.IdentityModel.Logging.dll
+|       |   |   Microsoft.IdentityModel.Protocols.dll
+|       |   |   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+|       |   |   Microsoft.IdentityModel.Tokens.dll
+|       |   |   Microsoft.SqlServer.Server.dll
+|       |   |   Microsoft.Win32.SystemEvents.dll
+|       |   |   Mono.TextTemplating.dll
+|       |   |   SkillHub.App.deps.json
+|       |   |   SkillHub.App.dll
+|       |   |   SkillHub.App.exe
+|       |   |   SkillHub.App.pdb
+|       |   |   SkillHub.App.runtimeconfig.json
+|       |   |   SkillHub.App.staticwebassets.endpoints.json
+|       |   |   SkillHub.App.staticwebassets.runtime.json
+|       |   |   System.ClientModel.dll
+|       |   |   System.CodeDom.dll
+|       |   |   System.Composition.AttributedModel.dll
+|       |   |   System.Composition.Convention.dll
+|       |   |   System.Composition.Hosting.dll
+|       |   |   System.Composition.Runtime.dll
+|       |   |   System.Composition.TypedParts.dll
+|       |   |   System.Configuration.ConfigurationManager.dll
+|       |   |   System.Drawing.Common.dll
+|       |   |   System.IdentityModel.Tokens.Jwt.dll
+|       |   |   System.Memory.Data.dll
+|       |   |   System.Runtime.Caching.dll
+|       |   |   System.Security.Cryptography.ProtectedData.dll
+|       |   |   System.Security.Permissions.dll
+|       |   |   System.Windows.Extensions.dll
+|       |   |   
+|       |   +---cs
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---de
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---es
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---fr
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---it
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---ja
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---ko
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---pl
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---pt-BR
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---ru
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---runtimes
+|       |   |   +---unix
+|       |   |   |   \---lib
+|       |   |   |       \---net6.0
+|       |   |   |               Microsoft.Data.SqlClient.dll
+|       |   |   |               System.Drawing.Common.dll
+|       |   |   |               
+|       |   |   +---win
+|       |   |   |   \---lib
+|       |   |   |       \---net6.0
+|       |   |   |               Microsoft.Data.SqlClient.dll
+|       |   |   |               Microsoft.Win32.SystemEvents.dll
+|       |   |   |               System.Drawing.Common.dll
+|       |   |   |               System.Runtime.Caching.dll
+|       |   |   |               System.Security.Cryptography.ProtectedData.dll
+|       |   |   |               System.Windows.Extensions.dll
+|       |   |   |               
+|       |   |   +---win-arm
+|       |   |   |   \---native
+|       |   |   |           Microsoft.Data.SqlClient.SNI.dll
+|       |   |   |           
+|       |   |   +---win-arm64
+|       |   |   |   \---native
+|       |   |   |           Microsoft.Data.SqlClient.SNI.dll
+|       |   |   |           
+|       |   |   +---win-x64
+|       |   |   |   \---native
+|       |   |   |           Microsoft.Data.SqlClient.SNI.dll
+|       |   |   |           
+|       |   |   \---win-x86
+|       |   |       \---native
+|       |   |               Microsoft.Data.SqlClient.SNI.dll
+|       |   |               
+|       |   +---tr
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   +---zh-Hans
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |   |       
+|       |   \---zh-Hant
+|       |           Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |           Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|       |           Microsoft.CodeAnalysis.resources.dll
+|       |           Microsoft.CodeAnalysis.Workspaces.resources.dll
+|       |           
+|       \---net9.0
+|           |   appsettings.Development.json
+|           |   appsettings.json
+|           |   Humanizer.dll
+|           |   Microsoft.AspNetCore.Cryptography.Internal.dll
+|           |   Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+|           |   Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+|           |   Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+|           |   Microsoft.Bcl.AsyncInterfaces.dll
+|           |   Microsoft.Build.Locator.dll
+|           |   Microsoft.CodeAnalysis.CSharp.dll
+|           |   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+|           |   Microsoft.CodeAnalysis.dll
+|           |   Microsoft.CodeAnalysis.Workspaces.dll
+|           |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+|           |   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+|           |   Microsoft.Data.Sqlite.dll
+|           |   Microsoft.EntityFrameworkCore.Abstractions.dll
+|           |   Microsoft.EntityFrameworkCore.Design.dll
+|           |   Microsoft.EntityFrameworkCore.dll
+|           |   Microsoft.EntityFrameworkCore.Relational.dll
+|           |   Microsoft.EntityFrameworkCore.Sqlite.dll
+|           |   Microsoft.Extensions.Caching.Abstractions.dll
+|           |   Microsoft.Extensions.Caching.Memory.dll
+|           |   Microsoft.Extensions.Configuration.Abstractions.dll
+|           |   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+|           |   Microsoft.Extensions.DependencyInjection.dll
+|           |   Microsoft.Extensions.DependencyModel.dll
+|           |   Microsoft.Extensions.Identity.Core.dll
+|           |   Microsoft.Extensions.Identity.Stores.dll
+|           |   Microsoft.Extensions.Logging.Abstractions.dll
+|           |   Microsoft.Extensions.Logging.dll
+|           |   Microsoft.Extensions.Options.dll
+|           |   Microsoft.Extensions.Primitives.dll
+|           |   Mono.TextTemplating.dll
+|           |   SkillHub.App.deps.json
+|           |   SkillHub.App.dll
+|           |   SkillHub.App.exe
+|           |   SkillHub.App.pdb
+|           |   SkillHub.App.runtimeconfig.json
+|           |   SkillHub.App.staticwebassets.endpoints.json
+|           |   SkillHub.App.staticwebassets.runtime.json
+|           |   SQLitePCLRaw.batteries_v2.dll
+|           |   SQLitePCLRaw.core.dll
+|           |   SQLitePCLRaw.provider.e_sqlite3.dll
+|           |   System.CodeDom.dll
+|           |   System.Composition.AttributedModel.dll
+|           |   System.Composition.Convention.dll
+|           |   System.Composition.Hosting.dll
+|           |   System.Composition.Runtime.dll
+|           |   System.Composition.TypedParts.dll
+|           |   
+|           +---cs
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---Data
+|           |       app.db
+|           |       
+|           +---de
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---es
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---fr
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---it
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---ja
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---ko
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---pl
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---pt-BR
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---ru
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---runtimes
+|           |   +---browser-wasm
+|           |   |   \---nativeassets
+|           |   |       \---net9.0
+|           |   |               e_sqlite3.a
+|           |   |               
+|           |   +---linux-arm
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-armel
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-mips64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-arm
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-s390x
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-musl-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-ppc64le
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-s390x
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---linux-x86
+|           |   |   \---native
+|           |   |           libe_sqlite3.so
+|           |   |           
+|           |   +---maccatalyst-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---maccatalyst-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---osx-arm64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---osx-x64
+|           |   |   \---native
+|           |   |           libe_sqlite3.dylib
+|           |   |           
+|           |   +---win-arm
+|           |   |   \---native
+|           |   |           e_sqlite3.dll
+|           |   |           
+|           |   +---win-arm64
+|           |   |   \---native
+|           |   |           e_sqlite3.dll
+|           |   |           
+|           |   +---win-x64
+|           |   |   \---native
+|           |   |           e_sqlite3.dll
+|           |   |           
+|           |   \---win-x86
+|           |       \---native
+|           |               e_sqlite3.dll
+|           |               
+|           +---tr
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           +---zh-Hans
+|           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|           |       Microsoft.CodeAnalysis.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|           |       
+|           \---zh-Hant
+|                   Microsoft.CodeAnalysis.CSharp.resources.dll
+|                   Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|                   Microsoft.CodeAnalysis.resources.dll
+|                   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|                   Microsoft.CodeAnalysis.Workspaces.resources.dll
+|                   
++---Components
+|   |   App.razor
+|   |   Routes.razor
+|   |   _Imports.razor
+|   |   
+|   +---Account
+|   |   |   IdentityComponentsEndpointRouteBuilderExtensions.cs
+|   |   |   IdentityNoOpEmailSender.cs
+|   |   |   IdentityRedirectManager.cs
+|   |   |   IdentityRevalidatingAuthenticationStateProvider.cs
+|   |   |   IdentityUserAccessor.cs
+|   |   |   
+|   |   +---Pages
+|   |   |   |   AccessDenied.razor
+|   |   |   |   ConfirmEmail.razor
+|   |   |   |   ConfirmEmailChange.razor
+|   |   |   |   ExternalLogin.razor
+|   |   |   |   ForgotPassword.razor
+|   |   |   |   ForgotPasswordConfirmation.razor
+|   |   |   |   InvalidPasswordReset.razor
+|   |   |   |   InvalidUser.razor
+|   |   |   |   Lockout.razor
+|   |   |   |   Login.razor
+|   |   |   |   LoginWith2fa.razor
+|   |   |   |   LoginWithRecoveryCode.razor
+|   |   |   |   Register.razor
+|   |   |   |   RegisterConfirmation.razor
+|   |   |   |   ResendEmailConfirmation.razor
+|   |   |   |   ResetPassword.razor
+|   |   |   |   ResetPasswordConfirmation.razor
+|   |   |   |   _Imports.razor
+|   |   |   |   
+|   |   |   \---Manage
+|   |   |           ChangePassword.razor
+|   |   |           DeletePersonalData.razor
+|   |   |           Disable2fa.razor
+|   |   |           Email.razor
+|   |   |           EnableAuthenticator.razor
+|   |   |           ExternalLogins.razor
+|   |   |           GenerateRecoveryCodes.razor
+|   |   |           Index.razor
+|   |   |           PersonalData.razor
+|   |   |           ResetAuthenticator.razor
+|   |   |           SetPassword.razor
+|   |   |           TwoFactorAuthentication.razor
+|   |   |           _Imports.razor
+|   |   |           
+|   |   \---Shared
+|   |           AccountLayout.razor
+|   |           ExternalLoginPicker.razor
+|   |           ManageLayout.razor
+|   |           ManageNavMenu.razor
+|   |           RedirectToLogin.razor
+|   |           ShowRecoveryCodes.razor
+|   |           StatusMessage.razor
+|   |           
+|   +---Layout
+|   |       MainLayout.razor
+|   |       MainLayout.razor.css
+|   |       NavMenu.razor
+|   |       NavMenu.razor.css
+|   |       
+|   \---Pages
+|           Auth.razor
+|           Counter.razor
+|           Error.razor
+|           Home.razor
+|           Weather.razor
+|           
++---Data
+|   |   app.db
+|   |   ApplicationDbContext.cs
+|   |   ApplicationUser.cs
+|   |   
+|   \---Migrations
+|           00000000000000_CreateIdentitySchema.cs
+|           00000000000000_CreateIdentitySchema.Designer.cs
+|           ApplicationDbContextModelSnapshot.cs
+|           
++---obj
+|   |   project.assets.json
+|   |   project.nuget.cache
+|   |   SkillHub.App.csproj.nuget.dgspec.json
+|   |   SkillHub.App.csproj.nuget.g.props
+|   |   SkillHub.App.csproj.nuget.g.targets
+|   |   
+|   \---Debug
+|       +---net8.0
+|       |   |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|       |   |   ApiEndpoints.json
+|       |   |   apphost.exe
+|       |   |   rjimswa.dswa.cache.json
+|       |   |   rjsmcshtml.dswa.cache.json
+|       |   |   rjsmrazor.dswa.cache.json
+|       |   |   rpswa.dswa.cache.json
+|       |   |   SkillHub.9F48C5BC.Up2Date
+|       |   |   SkillHub.App.AssemblyInfo.cs
+|       |   |   SkillHub.App.AssemblyInfoInputs.cache
+|       |   |   SkillHub.App.assets.cache
+|       |   |   SkillHub.App.csproj.AssemblyReference.cache
+|       |   |   SkillHub.App.csproj.BuildWithSkipAnalyzers
+|       |   |   SkillHub.App.csproj.CoreCompileInputs.cache
+|       |   |   SkillHub.App.csproj.FileListAbsolute.txt
+|       |   |   SkillHub.App.dll
+|       |   |   SkillHub.App.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   SkillHub.App.genruntimeconfig.cache
+|       |   |   SkillHub.App.GlobalUsings.g.cs
+|       |   |   SkillHub.App.MvcApplicationPartsAssemblyInfo.cache
+|       |   |   SkillHub.App.pdb
+|       |   |   staticwebassets.build.endpoints.json
+|       |   |   staticwebassets.build.json
+|       |   |   staticwebassets.build.json.cache
+|       |   |   staticwebassets.development.json
+|       |   |   staticwebassets.references.upToDateCheck.txt
+|       |   |   staticwebassets.removed.txt
+|       |   |   staticwebassets.upToDateCheck.txt
+|       |   |   
+|       |   +---ref
+|       |   |       SkillHub.App.dll
+|       |   |       
+|       |   +---refint
+|       |   |       SkillHub.App.dll
+|       |   |       
+|       |   +---scopedcss
+|       |   |   +---bundle
+|       |   |   |       SkillHub.App.styles.css
+|       |   |   |       
+|       |   |   +---Components
+|       |   |   |   \---Layout
+|       |   |   |           MainLayout.razor.rz.scp.css
+|       |   |   |           NavMenu.razor.rz.scp.css
+|       |   |   |           
+|       |   |   \---projectbundle
+|       |   |           SkillHub.App.bundle.scp.css
+|       |   |           
+|       |   \---staticwebassets
+|       \---net9.0
+|           |   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+|           |   ApiEndpoints.json
+|           |   apphost.exe
+|           |   rbcswa.dswa.cache.json
+|           |   rjimswa.dswa.cache.json
+|           |   rjsmcshtml.dswa.cache.json
+|           |   rjsmrazor.dswa.cache.json
+|           |   rpswa.dswa.cache.json
+|           |   SkillHub.9F48C5BC.Up2Date
+|           |   SkillHub.App.AssemblyInfo.cs
+|           |   SkillHub.App.AssemblyInfoInputs.cache
+|           |   SkillHub.App.assets.cache
+|           |   SkillHub.App.csproj.AssemblyReference.cache
+|           |   SkillHub.App.csproj.BuildWithSkipAnalyzers
+|           |   SkillHub.App.csproj.CoreCompileInputs.cache
+|           |   SkillHub.App.csproj.FileListAbsolute.txt
+|           |   SkillHub.App.dll
+|           |   SkillHub.App.GeneratedMSBuildEditorConfig.editorconfig
+|           |   SkillHub.App.genruntimeconfig.cache
+|           |   SkillHub.App.GlobalUsings.g.cs
+|           |   SkillHub.App.MvcApplicationPartsAssemblyInfo.cache
+|           |   SkillHub.App.pdb
+|           |   staticwebassets.build.endpoints.json
+|           |   staticwebassets.build.json
+|           |   staticwebassets.build.json.cache
+|           |   staticwebassets.development.json
+|           |   staticwebassets.references.upToDateCheck.txt
+|           |   staticwebassets.removed.txt
+|           |   staticwebassets.upToDateCheck.txt
+|           |   
+|           +---compressed
+|           |       0vpppoiyew-ausgxo2sd3.gz
+|           |       1lpbhvihgl-63fj8s7r0e.gz
+|           |       2c37txjhad-c2jlpeoesf.gz
+|           |       30oxiy8duw-k8d9w2qqmf.gz
+|           |       3dq6svhnb5-lcd1t2u6c8.gz
+|           |       3unfih89pf-zc4lugljsb.gz
+|           |       45o0yqfy2u-j5mq2jizvt.gz
+|           |       5f4grcbkqb-pk9g2wxc8p.gz
+|           |       648i40etdb-bqjiyaj88i.gz
+|           |       721npbaogf-notf2xhcfb.gz
+|           |       8sgods25rn-vr1egmr9el.gz
+|           |       9x3flssc6o-8inm30yfxf.gz
+|           |       af0dfxop43-bpk8xqwxhs.gz
+|           |       bdr2gj16q9-nvvlpmu67g.gz
+|           |       c053lyy4er-khy4lop6wu.gz
+|           |       cr8wmfrc33-kbrnm935zg.gz
+|           |       djhh75o7mq-s35ty4nyc5.gz
+|           |       dx8s953bvi-493y06b0oq.gz
+|           |       eo2sal7dol-cosvhxvwiu.gz
+|           |       g9av0ii5as-ft3s53vfgj.gz
+|           |       h7fukxql8o-tdbxkamptv.gz
+|           |       hjejb2wdqw-h1s4sie4z3.gz
+|           |       jdylmj2ngw-ee0r1s7dh0.gz
+|           |       kffk6ydr1w-rzd6atqjts.gz
+|           |       ks6o5omg96-37tfw0ft22.gz
+|           |       kz2w1qtexg-zc4lugljsb.gz
+|           |       lcbsem5qzy-fvhpjtyr6v.gz
+|           |       lw0w806gf5-6cfz1n2cew.gz
+|           |       m5bmxler0g-dxx9fxp4il.gz
+|           |       m6m328dsi9-hrwsygsryq.gz
+|           |       mmazswkpwn-jd9uben2k1.gz
+|           |       mtu0jp6zm4-khv3u5hwcm.gz
+|           |       n7xtqufnna-0j3bgjxly4.gz
+|           |       osk3xkk7lr-aexeepp0ev.gz
+|           |       rcgpk4mt8b-r4e9w2rdcm.gz
+|           |       s010fb5e9c-jj8uyg4cgr.gz
+|           |       s5u5jow1ug-erw9l3u2r3.gz
+|           |       tz0ozjurk7-fsbi9cje9m.gz
+|           |       u91jzf2odp-iovd86k7lj.gz
+|           |       ucrydssm8i-46ein0sx1k.gz
+|           |       uko08uwq3d-pj5nd1wqec.gz
+|           |       uq1ou5cv91-6pdc2jztkx.gz
+|           |       vstrtkr6gv-b7pk76d08c.gz
+|           |       vw7ey17hx9-ub07r2b239.gz
+|           |       x4y3xirzo6-c2oey78nd0.gz
+|           |       xvye2yrbxr-d7shbmvgxk.gz
+|           |       y60hxaue7g-v0zj4ognzu.gz
+|           |       z860g8c22e-06098lyss8.gz
+|           |       zq20mjiu83-y7v9cxd14o.gz
+|           |       
+|           +---ref
+|           |       SkillHub.App.dll
+|           |       
+|           +---refint
+|           |       SkillHub.App.dll
+|           |       
+|           +---scopedcss
+|           |   +---bundle
+|           |   |       SkillHub.App.styles.css
+|           |   |       
+|           |   +---Components
+|           |   |   \---Layout
+|           |   |           MainLayout.razor.rz.scp.css
+|           |   |           NavMenu.razor.rz.scp.css
+|           |   |           
+|           |   \---projectbundle
+|           |           SkillHub.App.bundle.scp.css
+|           |           
+|           \---staticwebassets
++---Properties
+|       launchSettings.json
+|       serviceDependencies.json
+|       serviceDependencies.local.json
+|       serviceDependencies.local.json.user
+|       
++---SkillHub.App
+|   +---Data
+|   |       SeedData.cs
+|   |       SkillHubContext.cs
+|   |       
+|   +---Models
+|   |       Session.cs
+|   |       Skill.cs
+|   |       
+|   +---Pages
+|   |       Dashboard.razor
+|   |       Index.razor
+|   |       Sessions.razor
+|   |       Settings.razor
+|   |       Skills.razor
+|   |       
+|   +---Resources
+|   |       Shared.es.resx
+|   |       Shared.fi.resx
+|   |       Shared.resx
+|   |       
+|   +---Services
+|   |       ExportService.cs
+|   |       RecommendationService.cs
+|   |       
+|   \---wwwroot
+|       +---css
+|       |       site.css
+|       |       
+|       +---images
+|       |       .keep
+|       |       
+|       \---js
+|               site.js
+|               
+\---wwwroot
+    |   app.css
+    |   favicon.png
+    |   
+    +---bootstrap
+    |       bootstrap.min.css
+    |       bootstrap.min.css.map
+    |       
+    \---lib
+        \---bootstrap
+            \---dist
+                +---css
+                |       bootstrap-grid.css
+                |       bootstrap-grid.css.map
+                |       bootstrap-grid.min.css
+                |       bootstrap-grid.min.css.map
+                |       bootstrap-grid.rtl.css
+                |       bootstrap-grid.rtl.css.map
+                |       bootstrap-grid.rtl.min.css
+                |       bootstrap-grid.rtl.min.css.map
+                |       bootstrap-reboot.css
+                |       bootstrap-reboot.css.map
+                |       bootstrap-reboot.min.css
+                |       bootstrap-reboot.min.css.map
+                |       bootstrap-reboot.rtl.css
+                |       bootstrap-reboot.rtl.css.map
+                |       bootstrap-reboot.rtl.min.css
+                |       bootstrap-reboot.rtl.min.css.map
+                |       bootstrap-utilities.css
+                |       bootstrap-utilities.css.map
+                |       bootstrap-utilities.min.css
+                |       bootstrap-utilities.min.css.map
+                |       bootstrap-utilities.rtl.css
+                |       bootstrap-utilities.rtl.css.map
+                |       bootstrap-utilities.rtl.min.css
+                |       bootstrap-utilities.rtl.min.css.map
+                |       bootstrap.css
+                |       bootstrap.css.map
+                |       bootstrap.min.css
+                |       bootstrap.min.css.map
+                |       bootstrap.rtl.css
+                |       bootstrap.rtl.css.map
+                |       bootstrap.rtl.min.css
+                |       bootstrap.rtl.min.css.map
+                |       
+                \---js
+                        bootstrap.bundle.js
+                        bootstrap.bundle.js.map
+                        bootstrap.bundle.min.js
+                        bootstrap.bundle.min.js.map
+                        bootstrap.esm.js
+                        bootstrap.esm.js.map
+                        bootstrap.esm.min.js
+                        bootstrap.esm.min.js.map
+                        bootstrap.js
+                        bootstrap.js.map
+                        bootstrap.min.js
+                        bootstrap.min.js.map
+                        
