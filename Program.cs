@@ -1,64 +1,72 @@
-using Microsoft.AspNetCore.Components.Authorization;
+﻿// Perus-usingit palveluille, EF:lle ja Identitylle
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using SkillHub.App.Components;
-using SkillHub.App.Components.Account;
 using SkillHub.App.Data;
+using SkillHub.App.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+// --- Tietokantayhteys (SQLite) ---
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? "Data Source=skillhub.db";
 
-builder.Services.AddCascadingAuthenticationState();
-builder.Services.AddScoped<IdentityUserAccessor>();
-builder.Services.AddScoped<IdentityRedirectManager>();
-builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
-
-builder.Services.AddAuthentication(options =>
-    {
-        options.DefaultScheme = IdentityConstants.ApplicationScheme;
-        options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-    })
-    .AddIdentityCookies();
-
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+// Identityn DbContext (käyttäjät ym.)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
+
+// Sovelluksen oma DbContext (Skills, Sessions, …)
+builder.Services.AddDbContext<SkillHubContext>(options =>
+    options.UseSqlite(connectionString));
+
+// Dev-sivut virheiden tutkimiseen
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddSignInManager()
-    .AddDefaultTokenProviders();
+// --- ASP.NET Core Identity ---
+builder.Services
+    .AddDefaultIdentity<IdentityUser>(options =>
+    {
+        options.SignIn.RequireConfirmedAccount = false; // DEV: false, PROD: true
+    })
+    .AddEntityFrameworkStores<ApplicationDbContext>();  // Identity käyttää ApplicationDbContextia
 
-builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+// --- UI-kerros (Razor Pages + Blazor Server) ---
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+
+// --- Sovelluksen palvelut (DI) ---
+builder.Services.AddScoped<RecommendationService>();
+builder.Services.AddScoped<ExportService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// --- Middlewaret / pino ---
 if (app.Environment.IsDevelopment())
 {
-    app.UseMigrationsEndPoint();
+    app.UseMigrationsEndPoint(); // EF dev-sivu
 }
 else
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
 
+app.UseAuthentication();
+app.UseAuthorization();
 
-app.UseAntiforgery();
+// --- Reititykset ---
+app.MapControllers();
+app.MapRazorPages();                   
+app.MapFallbackToPage("/_Host");       
 
-app.MapStaticAssets();
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
-
-// Add additional endpoints required by the Identity /Account Razor components.
-app.MapAdditionalIdentityEndpoints();
+// --- Tietokannan migraatiot ja seed ---
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    await SeedData.EnsureMigratedAndSeededAsync(services);
+}
 
 app.Run();

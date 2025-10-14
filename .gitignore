@@ -42,3 +42,5 @@ appsettings.Development.json
 node_modules/
 dist/
 wwwroot/css/
+# .gitignore
+.notes.txt
