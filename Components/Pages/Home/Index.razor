@@ -1,0 +1,179 @@
+@page "/"
+@using Microsoft.AspNetCore.Components.Routing
+<PageTitle>Home ∑ SkillHub</PageTitle>
+
+<section class="hero">
+    <div class="hero__content">
+        <h1 class="hero__title">Tervetuloa SkillHubiin</h1>
+        <p class="hero__subtitle">
+            Rakenna, hallitse ja esit‰ osaamisesi sek‰ projektisi ñ yhdess‰ paikassa.
+        </p>
+
+        <div class="hero__actions">
+            <NavLink class="btn btn--primary" href="/skills" Match=NavLinkMatch.All>
+                Tutustu taitoihin
+            </NavLink>
+            <NavLink class="btn btn--secondary" href="/projects">
+                Katso projektit
+            </NavLink>
+        </div>
+    </div>
+</section>
+
+<section class="highlights">
+    <h2 class="section__title">Pikalinkit</h2>
+
+    <div class="cards">
+        <article class="card">
+            <h3 class="card__title">Taidot</h3>
+            <p class="card__text">
+                N‰e taitosi ja kehityspolkusi selke‰sti. Lis‰‰, muokkaa ja vie CSV:ksi.
+            </p>
+            <NavLink class="card__link" href="/skills">Siirry &rarr;</NavLink>
+        </article>
+
+        <article class="card">
+            <h3 class="card__title">Projektit</h3>
+            <p class="card__text">
+                Kokoa projektit portfolioon. Kuvaukset, teknologiat ja linkit yhdell‰ sivulla.
+            </p>
+            <NavLink class="card__link" href="/projects">Siirry &rarr;</NavLink>
+        </article>
+
+        <article class="card">
+            <h3 class="card__title">Tietoa</h3>
+            <p class="card__text">
+                Kuka olet, mit‰ teet ja mihin suuntaan olet menossa. Lyhyt esittelysivu.
+            </p>
+            <NavLink class="card__link" href="/about">Siirry &rarr;</NavLink>
+        </article>
+    </div>
+</section>
+
+<!-- Kevyt, komponenttiin rajattu tyyli -->
+<style>
+    /* Peruslayout ñ toimii sek‰ dark- ett‰ light-tilassa ilman ulkoisia kirjastoja */
+    .hero {
+        display: grid;
+        place-items: center;
+        padding: 4rem 1rem 2rem;
+    }
+
+    .hero__content {
+        max-width: 940px;
+        text-align: center;
+    }
+
+    .hero__title {
+        margin: 0 0 .5rem 0;
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-weight: 700;
+    }
+
+    .hero__subtitle {
+        margin: 0 auto 1.5rem;
+        max-width: 720px;
+        opacity: .8;
+        line-height: 1.6;
+    }
+
+    .hero__actions {
+        display: inline-flex;
+        gap: .75rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Yksinkertaiset nappityylit ñ riippumattomat ulkoisista frameworkeista */
+    .btn {
+        display: inline-block;
+        padding: .7rem 1.1rem;
+        border-radius: .75rem;
+        font-weight: 600;
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: transform .05s ease, opacity .2s ease, border-color .2s ease;
+    }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+
+    .btn--primary {
+        background: var(--btn-primary-bg, #2563eb);
+        color: var(--btn-primary-fg, #fff);
+    }
+
+        .btn--primary:hover {
+            opacity: .92;
+        }
+
+    .btn--secondary {
+        background: transparent;
+        color: var(--btn-secondary-fg, inherit);
+        border-color: rgba(127,127,127,.35);
+    }
+
+        .btn--secondary:hover {
+            border-color: rgba(127,127,127,.6);
+        }
+
+    .highlights {
+        padding: 1rem;
+        max-width: 1100px;
+        margin: 0 auto 3rem;
+    }
+
+    .section__title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 0 0 1rem 0;
+        opacity: .9;
+    }
+
+    /* Korttiruudukko */
+    .cards {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    @@media (min-width: 640px) {
+        .cards {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+    }
+
+    @@media (min-width: 960px) {
+        .cards {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+    }
+
+    .card {
+        padding: 1rem;
+        border: 1px solid rgba(127,127,127,.25);
+        border-radius: 1rem;
+        backdrop-filter: saturate(120%);
+    }
+
+    .card__title {
+        margin: 0 0 .25rem 0;
+        font-weight: 700;
+    }
+
+    .card__text {
+        margin: 0 0 .75rem 0;
+        opacity: .85;
+        line-height: 1.6;
+    }
+
+    .card__link {
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+        .card__link:hover {
+            text-decoration: underline;
+        }
+</style>

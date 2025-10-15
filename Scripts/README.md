@@ -1,0 +1,1 @@
+Scripts folder for SkillHub.App. // TODO: add scripts or instructions.
