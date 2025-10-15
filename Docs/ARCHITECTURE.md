@@ -1,0 +1,1 @@
+Architecture documentation for SkillHub.App. // TODO: add details.

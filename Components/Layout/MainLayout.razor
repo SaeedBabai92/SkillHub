@@ -1,23 +1,57 @@
 ﻿@inherits LayoutComponentBase
+@using Microsoft.AspNetCore.Components.Routing
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+<a class="u-sr-only" href="#main">Siirry sisältöön</a>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+<div class="layout">
+    <header class="site-header">
+        <div class="u-container header__inner">
+            <div class="header__logo">
+                <a href="/">SkillHub</a>
+            </div>
+
+            <!-- Hamburger (mobiili) -->
+            <button class="header__menu-btn"
+                    type="button"
+                    aria-label="Avaa valikko"
+                    aria-controls="primary-nav"
+                    aria-expanded="false"
+                    data-js="nav-toggle">
+                <span class="burger"></span>
+            </button>
+
+            <!-- Navigaatio -->
+            <nav id="primary-nav" class="header__nav" data-js="nav-panel">
+                <NavLink class="nav__link" href="/" Match="NavLinkMatch.All">Home</NavLink>
+                <NavLink class="nav__link" href="/skills" Match="NavLinkMatch.Prefix">Skills</NavLink>
+                <NavLink class="nav__link" href="/projects" Match="NavLinkMatch.Prefix">Projects</NavLink>
+                <NavLink class="nav__link" href="/about" Match="NavLinkMatch.Prefix">About</NavLink>
+            </nav>
+
+            <!-- Teemakytkin (oikea yläkulma) -->
+            <button type="button"
+                    class="theme-toggle"
+                    aria-label="Vaihda teema"
+                    aria-pressed="false"
+                    title="Switch theme"
+                    data-js="theme-toggle">
+                <svg class="theme-toggle__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                    <!-- Yksinkertainen “aurinko/kuu” -ikoni (toimii molemmissa teemoissa) -->
+                    <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z" />
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                </svg>
+                <span class="theme-toggle__label">Theme</span>
+            </button>
         </div>
+    </header>
 
-        <article class="content px-4">
-            @Body
-        </article>
+    <main id="main" class="main-content u-container">
+        @Body
     </main>
-</div>
 
-<div id="blazor-error-ui" data-nosnippet>
-    An unhandled error has occurred.
-    <a href="." class="reload">Reload</a>
-    <span class="dismiss">🗙</span>
+    <footer class="site-footer">
+        <div class="u-container footer__inner">
+            <p>&copy; @(DateTime.Now.Year) SkillHub. All rights reserved.</p>
+        </div>
+    </footer>
 </div>

@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SkillHub.App.Data;
 using SkillHub.App.Services;
+using SkillHub.App.Services.Interfaces;
+using SkillHub.App.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,8 +36,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
 // --- Sovelluksen palvelut (DI) ---
-builder.Services.AddScoped<RecommendationService>();
-builder.Services.AddScoped<ExportService>();
+builder.Services.AddScoped<IExportService, ExportService>();
+builder.Services.AddScoped<IRecommendationService, RecommendationService>();
+
 
 var app = builder.Build();
 
